@@ -1,0 +1,10 @@
+.led_contain{
+   
+
+}
+.led_panel_status{
+    margin: 40px 30px 30px 30px;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid red;
+}
