@@ -161,3 +161,24 @@
     background: transparent;
     transition: border-color 0.2s;
 }
+.content_speech{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    border-radius: 13px;
+    padding: 30px;
+}
+.speech_func{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.speech_btn{
+    margin: 10px;
+    background-color: rgb(127, 90, 240);
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}

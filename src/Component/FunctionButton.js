@@ -3,6 +3,7 @@ import '../Css/function.css'
 import PanelWeather from './PanelWeather'
 import PanelSetText from './PanelSetText';
 import PanelMember from './PanelMember';
+import DrawEverything from './DrawEverything';
 class FunctionButton extends Component {
     constructor(props){
         super(props)
@@ -32,10 +33,11 @@ class FunctionButton extends Component {
                 <PanelWeather></PanelWeather>
                 <PanelSetText></PanelSetText>
                 <PanelMember></PanelMember>
+                <DrawEverything></DrawEverything>
                     <div className='button' onClick={()=>{this.onClickWeatherDisplay('panel_weather_btn')}}>Weather Display</div>  
                     <div className='button' onClick={()=>{this.onClickWeatherDisplay('panel_member_btn')}}>Member Display</div>
                     <div className='button'onClick={()=>{this.onClickWeatherDisplay('panel_settext_btn')}} >Set Text Display</div>
-                    <div className='button' onClick={()=>{this.onClickDrawEverything()}} >Draw Everything</div>
+                    <div className='button' onClick={()=>{this.onClickWeatherDisplay('panel_setvoice_btn')}} >Voice Controll</div>
                 </div>
             </div>
         );
